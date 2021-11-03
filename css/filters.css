@@ -1,0 +1,128 @@
+nav{
+    background-color: rgb(255, 255, 255);
+}
+.filter-container{
+    
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 30px;
+    height: 10vh;
+    width: 100%;
+}
+.filter-logo{
+    color: #0065FC;;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-right: -40px;
+    z-index: 2;
+}
+.filter-title{
+margin-right: 40px;
+text-align: center;
+line-height: 10px;
+
+}
+.filter{
+    background-color: rgb(255, 255, 255);
+    height: 43px;
+    text-align: center;
+    line-height: 5px;
+    width: 200px;
+    padding: 1px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px #F2F2F2 solid;
+}
+
+.filter-anim{
+    background-color: rgb(255, 255, 255);
+    height: 43px;
+    text-align: center;
+    line-height: 5px;
+    width: 260px;
+    padding: 1px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px #F2F2F2 solid;
+}
+.title-nav p{
+margin-top: -10px;
+}
+.container-search{
+    display: table;
+    position: relative;
+}
+.container-search .locicon{
+    background-color: #F2F2F2;
+    display: table-cell;
+    height: 50px;
+    text-align: center;
+    width: 60px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+input{
+    height: 60px;
+    width: 240px;
+    border: 1px solid rgb(236, 236, 236);
+    margin-top: -2px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px;
+
+}
+.text-input:focus{
+    outline: none;
+}
+.search{
+    width: 150px;
+    border: 1px solid #cccccc;
+    height: 60px;
+    padding: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-style: none;
+    background-color: #0065FC;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.search:hover{
+
+    border: 1px solid #cccccc;
+    background-color: #DEEBFF;
+    color: #0065FC;
+
+}
+.search {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.info-container {
+    display: flex;      
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.562);
+}
+.info-container p{
+    display: flex;      
+    flex-direction: row;
+    color: rgba(0, 0, 0, 0.562);
+}
+.info-container i{
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #0065FC;
+}

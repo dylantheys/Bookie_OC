@@ -1,0 +1,160 @@
+
+.hebergements-section  {
+    height:80vh;
+    width: 100%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hebergements-section  h2{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 40px 0px 0px 40px;
+    width: 100%;
+}
+.hebergements-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 60%;
+    background-color: #F2F2F2;
+}
+.sous-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ 
+    
+
+}
+.hebergements-container .voirplus{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.title-hebergements{
+    margin-top: 0px;
+}
+.card{
+    background-color: white;
+    width: 28%;
+    height: 220px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 00px 0px 10px 0px;
+    
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
+    border: #c6d6f0 solid 0px;
+}
+.card img {
+    max-width: 100%;
+    max-height: 60%;
+    border-radius: 20px 20px 0 0;
+    width: 600px;
+    height: 200px;
+}
+.card h3{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: -10px;
+    margin-top: 14px;
+    margin-left: 13px;
+}
+.card, .description p{
+    margin-left: 13px;
+    font-weight: 200px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.hot-container{
+    background-color: #F2F2F2;
+    height:80vh;
+    width: 30%;
+    border-radius: 20px;
+    margin-left: 8%;
+}
+
+.card-hot{
+    background-color: white;
+    width:85%;
+    height: 19vh;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
+    border: #c6d6f0 solid 0px;
+    display: flex;
+    margin-bottom: -20px;
+    
+}
+.card h3{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: -10px;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+.card-hot .description p{  
+    font-weight: 200px;
+    font-size: 14px;
+    margin-left: 0px;
+    padding: 5px;
+    margin-top: -10px;
+    
+
+}
+
+.card-hot .rating{
+    color: #0065FC;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+.card-hot img{
+    max-width: 40%;
+    max-height: 100%;
+    border-radius: 20px 0px 0px 20px;
+    margin-right: 5%;
+}
+
+.card .rating{
+    color: #0065FC;
+    margin-left: 11px;
+    margin-top: -5px;
+    font-size: 13px;
+}
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.seemore{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0px 0px 40px;
+margin-bottom: 20px;
+
+
+    
+
+}
+.fa-chart-line:before{
+    margin-left:100px;
+    font-size: 28px;
+}
+
+.rating-hot{
+    color: #0065FC;
+    margin-top: -10px;
+    margin-left: 4px;
+}
