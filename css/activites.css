@@ -1,8 +1,10 @@
 .activities-section{
     height:65vh;
     width: 100%;
-    margin-right: 5%;
+    box-sizing: border-box;
     display: flex;
+
+ 
 
     
 }
@@ -17,7 +19,10 @@ padding: 10px;
  
 
 }
-
+.title-activities{
+    margin-left: 0;
+    margin-bottom: 0;
+}
 .card-right{
     background-color: white;
     width: 300px;
@@ -44,7 +49,9 @@ padding: 10px;
     margin-left: 13px;
 }
 
-
+.activities-right-column{
+    margin-top: -25px;
+}
 .card-auto{
     background-color: white;
  
@@ -100,7 +107,7 @@ padding: 10px;
 .card-right-frioul{
     background-color: white;
     width: 300px;
-    height: 200px;
+    height: 160px;
 
     border-radius: 20px;
     margin: 00px 0px 10px 0px;
@@ -113,7 +120,7 @@ padding: 10px;
     max-height: 100%;
     border-radius: 20px 20px 0 0;
     width: 600px;
-    height: 160px;
+    height: 120px;
 }
 .card-right-frioul h3{
     font-size: 16px;

@@ -3,7 +3,9 @@
     <head>
     
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Booki</title>
     <link rel="icon" href="assets/Booki.png">
     <link rel="stylesheet" href="css/main.css">
@@ -12,6 +14,7 @@
     <link rel="stylesheet" href="css/hebergements.css">
     <link rel="stylesheet" href="css/activites.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tablet.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
     
@@ -19,30 +22,52 @@
     </head>
     <body>
         <header>
-            <img src="./assets/Booki.png" alt="logo Booki" height="50px">
+            <img src="./assets/Booki.png" alt="logo Booki" class="bookilogo">
             <div class="links">
                 <nav>
                     <ul>
-                        <li><a href="#">Hébergements</a></li>
-                        <li><a href="#">Activités</a></li>
+                        <li><a href="#hebergements">Hébergements</a></li>
+                        <li><a href="#activities">Activités</a></li>
                     </ul>
                 </nav>
             </div>
     </header>
         <nav><div class="title-nav"><h3>Trouvez votre hébergement pour des vacances de rêve</h3><p>En plein centre ville ou en pleine nature</p></div>
         <form action="#"><div class="container-search"><div class="locicon"><i class="fas fa-map-marker-alt"></i></div><div class="search-input"><input class="text-input" type="text" placeholder="Marseille, France"><input class="search" type="submit" value="Rechercher"></div></div></form>
-        <div class="filter-container"><p class="filter-title"><strong>Filtres</strong></p>
-            <div class="filter-logo"><i class="fas fa-money-bill-wave" ></i></div><div class="filter"><p>Économique</p></div>
-            <div class="filter-logo"><i class="fas fa-child"></i></div><div class="filter"><p>Familial</p></div>
-            <div class="filter-logo"><i class="fas fa-heart"></i></div><div class="filter"><p>Romantique</p></div>
-            <div class="filter-logo"><i class="fas fa-dog"></i></div><div class="filter-anim"><p>Animaux Autorisés</p></div>
-        </div>
+        <p class="filter-title"><strong>Filtres</strong></p>
+        
+        <div class="filter-container">
+                <div class="filter-logo">
+                    <i class="fas fa-money-bill-wave" ></i>
+                </div>
+                    <div class="filter">
+                        <p>Économique</p>
+                    </div>
+                <div class="filter-logo">
+                    <i class="fas fa-child"></i>
+                </div>
+                    <div class="filter">
+                        <p>Familial</p>
+                    </div>
+                <div class="filter-logo">
+                    <i class="fas fa-heart"></i>
+                </div>
+                    <div class="filter">
+                        <p>Romantique</p>
+                    </div>
+                <div class="filter-logo">
+                    <i class="fas fa-dog"></i>
+                </div>
+                    <div class="filter-anim">
+                        <p>Animaux Autorisés</p>
+                    </div>
+            </div>
         <div class="info-container">
         <i class="fas fa-info-circle"></i><p>Plus de 500 logements disponibles dans cette ville</p></div>
     </nav>
     <section class="hebergements-section">
             
-            <div class="hebergements-container">
+            <div class="hebergements-container" id="hebergements">
                 <h2 class="title-hebergements">Hébérgements à Marseille</h2>
                 <div class="sous-container">
             <div class="card">
@@ -141,7 +166,7 @@
         <div class="hot-container">
             <h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
             <div class="card-hot">
-                <img src="/assets/7.jpg" alt="matin" width="200px">
+                <img src="/assets/7.jpg" alt="matin" >
                     <div class="description">
                         <h3>Hôtel Le soleil du matin</h3>
                         <p>Nuit à partir de <strong>128€</strong></p>
@@ -156,7 +181,7 @@
             </div>
 
             <div class="card-hot">
-                <img src="/assets/8.jpg" alt="eau" width="200px">
+                <img src="/assets/8.jpg" alt="eau" >
                     <div class="description">
                         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                         <p>Nuit à partir de <strong>71€</strong></p>
@@ -171,7 +196,7 @@
             </div>
 
             <div class="card-hot">
-                <img src="/assets/9.jpg" alt="bleu" width="200px">
+                <img src="/assets/9.jpg" alt="bleu" >
                     <div class="description">
                         <h3>Hôtel Tout bleu et blanc</h3>
                         <p>Nuit à partir de <strong>68€</strong></p>
@@ -187,8 +212,10 @@
         
     </div>
     </section>
+    <h2 class="title-activities">Activités à Marseille</h2>
 <section class="activities-section">
-    <div class="activities-container">
+    
+    <div class="activities-container" id="activities">
         <div class="card-right-long">
             <img src="/assets/A.jpg" id="port" alt="Port">
             <div class="description-activities">
@@ -218,6 +245,7 @@
             <div class="description-activities">
                 <h3>Parc National des Calanques</h3>
             </div>
+        </div>
         </div>
 <div class="activities-right-column">
         <div class="card-right">
