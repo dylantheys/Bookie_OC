@@ -25,7 +25,7 @@ nav{
 }
 .filter-title{
 margin-right: 40px;
-text-align: center;
+text-align: left;
 line-height: 10px;
 
 }
@@ -109,7 +109,13 @@ input{
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+.search{
+    display:inline-block;
+}
 
+.search-phone{
+    display:none;
+}
 .info-container {
     display: flex;      
     flex-direction: row;

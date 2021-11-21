@@ -5,7 +5,10 @@ footer{
     height: 30vh;
     padding: 2%;
     line-height: 30px;
-    
+    width: 110%;
+    justify-content: center;
+    margin-left: -6%;
+    overflow: hidden;
 }
 .about, .nos-hebergements, .assitance{
     width: 30%;

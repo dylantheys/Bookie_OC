@@ -8,11 +8,17 @@
     justify-content: space-evenly;
 }
 
-.hebergements-section  h2{
+.hebergements-container  h2{
     font-size: 22px;
     font-weight: 600;
     padding: 40px 0px 0px 40px;
     width: 100%;
+}
+.hot-container  h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 35px 0px 0px 40px;
+  
 }
 .hebergements-container{
     display: flex;
