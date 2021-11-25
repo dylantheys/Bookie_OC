@@ -46,7 +46,7 @@
 
 .card-hot h3{
     font-size: 16px;
-    margin-top: -1%;
+    margin-top: 2%;
 }
 .card-hot{
  margin-left: auto;
@@ -57,18 +57,16 @@
     
 }
 .card h3{
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: -10px;
-    margin-top: 4px;
+
+  
+    margin-top: 10px;
     margin-left: 13px;
 }
 .card-hot .description p{  
-    font-weight: 200;
-    font-size: 14px;
+ 
     margin-left: 0px;
     padding: 1px;
-    margin-top: -10px;
+    
     
 
 }
