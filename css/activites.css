@@ -1,142 +1,40 @@
-.activities-section{
+#activite {
+    margin-bottom: 60px;
+    ;
+}
+
+.activite-list {
     display: flex;
     justify-content: space-between;
     height: 600px;
-
-    
 }
-.activities-container{
+
+.activite-list .column {
+    width: 23%;
     display: flex;
-    flex-wrap: wrap;
-justify-content: space-around;
-flex-direction: column;
-width: 100%;
-padding: 10px;
- 
-
-}
-.title-activities{
-    margin-left: 0;
-    margin-bottom: 0;
-}
-.card-right{
-    background-color: white;
-    width: 300px;
-    height: 220px;
-    border-radius: 20px;
-    margin: 3%;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
-
-}
-.card-right img {
-    max-width: 100%;
-    max-height: 80%;
-    border-radius: 20px 20px 0 0;
-    width: 600px;
-    height: 210px;
-
-}
-.card-right h3{
-    font-size: 16px;
-    font-weight: 400px;
-    margin-bottom: -10px;
-    margin-top: 5px;
-    margin-left: 13px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
 }
 
-
-.card-auto{
-    background-color: white;
- 
- 
-    border-radius: 20px;
-    
-    
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
-   
-}
-.card-auto img {
- max-width: 300px;
- max-height: 400px;
-    border-radius: 20px 20px 0 0;
-
-}
-.card-auto h3{
-    font-size: 16px;
-    font-weight: 400px;
-
-    margin-top: 5px;
-
+.activite-list .column .card-activity img {
+    width: 100%;
+    height: calc(100% - 67px);
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
 }
 
-.card-right-column{
-    background-color: white;
-    width: 80%;
-    height: 45%;
-    border-radius: 20px;
-    margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
-    margin-left: 8%;
-
-}
-.card-right-column img {
-    max-width: 100%;
-    max-height: 80%;
-    border-radius: 20px 20px 0 0;
-    width: 600px;
-    height: 270px;
-}
-.card-right-column h3{
-    font-size: 16px;
-    font-weight: 400px;
-    margin-bottom: -10px;
-    margin-top: 5px;
-    margin-left: 13px;
+.activite-list .column .card-activity {
+    height: 100%;
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    border-radius: 25px;
 }
 
-.card-right-long{
-    background-color: white;
-    width: 300px;
-    height: 450px;
-
-    border-radius: 20px;
-    margin: 00px 0px 10px 0px;
-    
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
-
-}
-.card-right-long img {
-    max-width: 100%;
-    max-height: 80%;
-    border-radius: 20px 20px 0 0;
-}
-.card-right-long h3{
-    font-size: 16px;
-    font-weight: 400px;
-    margin-bottom: -10px;
-    margin-top: 5px;
-    margin-left: 13px;
+.activite-list .column .card-activity h3 {
+    padding: 21px;
+    margin: 0px;
 }
 
-.card-right-frioul{
-    background-color: white;
-    width: 300px;
-    height: 160px;
-    border-radius: 20px;
-    margin: 0px 0px 40px 30px;
-    box-shadow: rgba(0, 0, 0, 0.123) 0px 0px 10px;
-}
-.card-right-frioul img {
-    max-width: 100%;
-    max-height: 80%;
-    border-radius: 20px 20px 0 0;
-    width: 600px;
-  
-}
-.card-right-frioul h3{
-    font-size: 16px;
-    font-weight: 400px;
-    margin-bottom: -10px;
-    margin-top: 5px;
-    margin-left: 13px;
+.activite-list .column.double .card-activity {
+    height: 48%;
 }

@@ -1,11 +1,15 @@
-@media only screen and (max-device-width : 768px) and (orientation : portrait) {
+@media only screen and (max-width : 767px) and (orientation : portrait) {
 
     body {
-        padding: Opx;
+        padding: 10px;
+   
     }
     
     header {
         flex-direction: column;
+        margin: 0px -20px;
+        padding: 0%;
+ 
     }
 
     header nav ul {
@@ -25,43 +29,65 @@
         margin: 0px;
         border-top: none;
         border-bottom: 2px solid #F2F2F2;
+    }.button{
+        display: none;
     }
-    .container-search{
-        margin: auto;
+   
+    .input-location{
+        width: 15%;
     }
     
-    input{
-        height: 52px;
-        width: 170px;
-        border: 1px solid rgb(236, 236, 236);
-        margin-top: -2px;
-        font-weight: 600;
-        font-size: 18px;
-        padding: 20px;
-    
-    }
-    .container-search{
-        height: 52px;
-    }
-    .search{
-        display:none;
+    .input{
+    min-width: 100% ;
+min-height: 100%;}
+    .filter-container{
+        flex-direction: column;
+        height: auto;
     }
 
-    .search-phone{
-        display:block;
-        width: 52px;
-        height: 52px;
-        padding: 0px;
-        border-radius: 20px;
-        border-style: none;
-        background-color: #0065FC;
-        color: white;
+    .input-recherche{
+        width: 70%;
     }
+    .loupe
+  {
+    width: 100%;
+    display: flex;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #0065Fc;
+    border-radius: 15px;
+  }
+  .input-button {
+    position: absolute;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+  
+  }
+  .loupe  i
+  {
+    margin: auto;
+    font-size: 19px;
+  }
+
+  #filter {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+.info{
+    margin-bottom: 40px;
+    width: auto;
+}
+
 /*---------- HEBERGEMENTS -----------*/
 .hebergements-section  {
- height: auto;
-flex-direction: column;
-justify-content: center;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
 
 
 }
@@ -74,6 +100,7 @@ justify-content: center;
 }
 .card{
     width: 100%;
+    margin-left: 0%;
 }
 .sous-container{
     flex-direction: column;
@@ -84,85 +111,47 @@ justify-content: center;
     background: none;
     width: auto;
     margin: auto;
-    padding: auto;
+    padding: 0px;
 }
 .hot-container{
     border-radius: 0px;
-height: 90vh;
+    height: 90vh;
     order: 1;
-    width: 100%;
-    margin: auto;
+    width: 112%;
+    margin: -20px;
 }
 
 .card-hot{
-  
-    
-    padding: auto;
+    padding: 0px;
 }
 
 .card-hot .description{
     padding-bottom: 100px;
 }
+.seemore{
+    padding: 10px 0px 0px 10px;
+}
 /*---------- ACTIVITE -----------*/
 
-    .activities-section{
-        height: auto;
-        width: 100%;
-        margin: auto;
-        padding: auto;
-        flex-direction: column;
-        
-    
-    }
-    .activities-right-column{
-        width: 100%;
-    margin: 2%;
-    }
-    
-    .card-right{
+.activite-list{
+    flex-direction: column;
+    height: auto;
+}
+ .activite-list .column {
     width: 100%;
-    height: 220px;
-    margin-bottom: 20px;
-
-    }
-    
-    
-    .card-right-long{
-        width: 100%;
-        height: 220px;
-        margin-bottom: 20px;
-    }
-    
-
-
-    
-    
-    .card-right-frioul{
-        margin: auto;
-     width: 100%;
-     height: 220px;
-     margin-bottom: 20px;
-    }
-    
-    .card-right-column{
-        height: 220px;
-        width: 100%;
-        margin-bottom: 20px;
-
-    }
-
-
-    .activities-section img{
-        height: auto;
-        width: 100%;
   
-        
-    
-    }
+}
+
+.activite-list .column .card-activity,
+.activite-list .column.double .card-activity {
+    height: 250px;
+    margin-bottom: 20px;
+}
 
     footer {
         flex-direction: column;
         height: auto;
+  
     }
     .about, .nos-hebergements, .assitance{
         width: auto;

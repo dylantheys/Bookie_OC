@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/hebergements.css">
     <link rel="stylesheet" href="css/activites.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/tablet.css" >
     <link rel="stylesheet" href="css/phone.css">
 
 
@@ -29,54 +29,60 @@
                 <nav>
                     <ul>
                         <li><a href="#hebergements">Hébergements</a></li>
-                        <li><a href="#activities">Activités</a></li>
+                        <li><a href="#activite">Activités</a></li>
                     </ul>
                 </nav>
             </div>
     </header>
         <nav><div class="title-nav"><h3>Trouvez votre hébergement pour des vacances de rêve</h3><p>En plein centre ville ou en pleine nature</p></div>
-        <form action="#">
-            <div class="container-search">
-                <div class="locicon">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-                    <div class="search-input">
-                        <input class="text-input" type="text" placeholder="Marseille, France">
-                        <input class="search" type="submit" value="Rechercher"></div>
-                        <button class="search-phone"> <i class="fas fa-search"></i></button>
-                        
+            <form>
+                <div class="input">
+                    <div class="input-location">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-                </form>
+                    <div class="input-search">
+                        <input type="text" id="recherche" placeholder="Marseille, France">
+                    </div>
+                    <div class="input-button">
+                        <input type="submit" class="button" value="Rechercher">
+                        <div class="loupe">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
         <p class="filter-title"><strong>Filtres</strong></p>
         
-        <div class="filter-container">
-                <div class="filter-logo">
-                    <i class="fas fa-money-bill-wave" ></i>
-                </div>
-                    <div class="filter">
-                        <p>Économique</p>
-                    </div>
-                <div class="filter-logo">
-                    <i class="fas fa-child"></i>
-                </div>
-                    <div class="filter">
-                        <p>Familial</p>
-                    </div>
-                <div class="filter-logo">
-                    <i class="fas fa-heart"></i>
-                </div>
-                    <div class="filter">
-                        <p>Romantique</p>
-                    </div>
-                <div class="filter-logo">
-                    <i class="fas fa-dog"></i>
-                </div>
-                    <div class="filter-anim">
-                        <p>Animaux Autorisés</p>
-                    </div>
+        <section id="filter">
+           
+            <div class="filtre-box">
+            <i class="fas fa-money-bill-wave"></i>
+            <div class="text">
+                Économique
             </div>
-        <div class="info-container">
-        <i class="fas fa-info-circle"></i><p>Plus de 500 logements disponibles dans cette ville</p></div>
+            </div>
+            <div class="filtre-box">
+            <i class="fas fa-child"></i>
+            <div class="text">
+                Familial
+            </div>
+            </div>
+            <div class="filtre-box">
+            <i class="fas fa-heart"></i>
+            <div class="text">
+                Romantique
+            </div>
+            </div>
+            <div class="filtre-box">
+            <i class="fas fa-dog"></i>
+            <div class="text">
+                Animaux autorisés
+            </div>
+            </div>
+        </section>
+        <div class="info">
+            <i class="fas fa-info"></i><p>Plus de 500 logements disponibles dans cette ville</p></div>
     </nav>
     <section class="hebergements-section">
             
@@ -225,58 +231,43 @@
         
     </div>
     </section>
-    <h2 class="title-activities">Activités à Marseille</h2>
-<section class="activities-section">
-    
-    <div class="activities-container" id="activities">
-        <div class="card-right-long">
-            <img src="/assets/A.jpg" id="port" alt="Port">
-            <div class="description-activities">
-                <h3>Vieux Port</h3>
+    <section id="activite">
+        <h2>Activités à Marseille</h2>
+        <div class="activite-list">
+            <div class="column">
+                <div class="card-activity">
+                    <img src="./assets/A.jpg">
+                    <h3>Vieux Port</h3>
+                </div>
+            </div>
+            <div class="column double">
+                <div class="card-activity">
+                    <img src="./assets/B.jpg">
+                    <h3>Fort de Pomègues</h3>
+                </div>
+                <div class="card-activity">
+                    <img src="./assets/C.jpg">
+                    <h3>Îles du Frioul</h3>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-activity">
+                    <img src="./assets/D.jpg">                    
+                    <h3>Parc National des Calanques</h3>
+                </div>
+            </div>
+            <div class="column double">
+                <div class="card-activity">
+                    <img src="./assets/E.jpg">                    
+                    <h3>Notre-Dame-de-la-Garde</h3>
+                </div>
+                <div class="card-activity">
+                    <img src="./assets/F.jpg">                    
+                    <h3>Parc LongChamp</h3>
+                </div>
             </div>
         </div>
-
-        <div class="card-right">
-            <img src="/assets/B.jpg" id="fort" alt="Fort">
-            <div class="description-activities">
-                <h3>Fort de Pomègues</h3>
-            </div>
-        </div>
-    
-
-        <div class="card-right-frioul">
-            <img src="/assets/C.jpg"  alt="Frioul">
-            <div class="description-activities">
-                <h3>Îles du Frioul</h3>
-            </div>
-        </div>
-
-        
-        
-    <div class="card-right-long">
-            <img src="/assets/D.jpg" alt="Calanques">
-            <div class="description-activities">
-                <h3>Parc National des Calanques</h3>
-            </div>
-        </div>
-        </div>
-<div class="activities-right-column">
-        <div class="card-right-column">
-            <img src="/assets/E.jpg" alt="dame">
-            <div class="description-activities">
-                <h3>Notre-Dame-de-la-Garde </h3>
-            </div>
-        </div>
-
-        <div class="card-right-column">
-            <img src="/assets/F.jpg" alt="Longchamp">
-            <div class="description-activities">
-                <h3>Parc Longchamp</h3>
-            </div>
-        </div>
-    </div>
-    </div>
-</section>
+    </section>
 <footer>
     <div class="about">
         <h4>A propos</h4>

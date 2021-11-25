@@ -1,69 +1,10 @@
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-    
-    
-    /*-----------FILTERS------------*/
-    
-    
-    .filter-container{
-        display: flex;
-        flex-direction: row;
-        margin-top: 10%;
-        margin-left: 1%;
-        margin-right: 1%;
-        justify-content: space-around;
-        height: 10vh;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    
-    .filter-logo{
-        color: #0065FC;;
-        background-color: #DEEBFF;
-        border-radius: 100%;
-        text-align: center;
-        height: 40px;
-        width: 40px;
-        margin-left: -3.5%;
-        margin-top: 0.1%;
-        padding-top: 10px;
-        font-size: 18px;
-        margin-right:-10%;
-        z-index: 2;
-    }
-    .filter-title{
-    
-    text-align: left;
-    line-height: 10px;
-    margin-bottom: -7%;
-    
-    }
-.filter{
-    background-color: rgb(255, 255, 255);
-    height: 43px;
-    text-align: center;
-    line-height: 8px;
-    width: 20%;
-    padding-left: 3%;
+@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
 
-    font-weight: 600;
-    font-size: 14px;
-    border-radius: 30px;
-    border: 2px #F2F2F2 solid;
-    margin-left: -1.5%;
-}
+    
+    .info{
+        width: 40%;
+    }
 
-.filter-anim{
-    background-color: rgb(255, 255, 255);
-    height: 43px;
-    text-align: center;
-    line-height: 8px;
-    width: 29%;
-    padding-left: 1%;
-    font-weight: 600;
-    font-size: 14px;
-    border-radius: 30px;
-    border: 2px #F2F2F2 solid;
-}
 /* ------------------HEBERGEMENT-----------------*/
 
 .hebergements-section  {
@@ -87,8 +28,8 @@
 }
 
 .card, .description p{
-  padding-top: -4%;
-  padding-bottom: -3%;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
 .hot-container{
@@ -117,13 +58,13 @@
 }
 .card h3{
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
     margin-bottom: -10px;
     margin-top: 4px;
     margin-left: 13px;
 }
 .card-hot .description p{  
-    font-weight: 200px;
+    font-weight: 200;
     font-size: 14px;
     margin-left: 0px;
     padding: 1px;
@@ -169,47 +110,6 @@
     font-size: 20px;
 }
 /* --------------------- ACTIVITIES -------------------*/
-
-.activities-section{
-    height: 40vh;
-    width: 100vw;
-    margin: auto;
-    padding: auto;
-
-}
-.activities-right-column{
-width: 100%;
-margin: 2%;
-}
-.activities-container{
-    flex-direction: column;
-flex-wrap: wrap;
-    width: 160%;
-
-
-}
-.card-right{
-  width: 50%;
-    height: 25%;
-}
-
-
-.card-right-long{
-    height: 60%;
-    width: 50%;
-}
-.card-right-long img{
-    height: 85%;
-  
-}
-.card-right-frioul{
-    width: 50%;
-    height: 20%;
-}
-.card-right-frioul img{
-
-    height: 60%;
-}
 
 }
     

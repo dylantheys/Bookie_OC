@@ -1,134 +1,126 @@
 nav{
     background-color: rgb(255, 255, 255);
 }
-.filter-container{
-    
+#filter {
     display: flex;
-    flex-direction: row;
-    
-    margin-top: 30px;
-    height: 10vh;
-    width: 100%;
+    align-items: center;
 }
-.filter-logo{
-    color: #0065FC;;
+
+#filter .filtre-box {
+    margin: 0px 10px 10px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+ 
+
+}
+
+#filter .filtre-box i {
     background-color: #DEEBFF;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
     border-radius: 100%;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-    padding-top: 10px;
-    font-size: 18px;
-    margin-right: -40px;
-    z-index: 2;
-}
-.filter-title{
-margin-right: 40px;
-text-align: left;
-line-height: 10px;
-
-}
-.filter{
-    background-color: rgb(255, 255, 255);
-    height: 43px;
-    text-align: center;
-    line-height: 5px;
-    width: 200px;
-    padding: 1px;
-    font-weight: 600;
-    border-radius: 30px;
-    border: 2px #F2F2F2 solid;
+    color: #0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.filter-anim{
-    background-color: rgb(255, 255, 255);
-    height: 43px;
-    text-align: center;
-    line-height: 5px;
-    width: 260px;
-    padding: 1px;
-    font-weight: 600;
-    border-radius: 30px;
-    border: 2px #F2F2F2 solid;
+
+#filter .filtre-box .text {
+    padding: 0px 10px;
 }
 .title-nav p{
 margin-top: -10px;
 }
-.container-search{
-    display: table;
-    position: relative;
-}
-.container-search .locicon{
-    background-color: #F2F2F2;
-    display: table-cell;
-    height: 50px;
-    text-align: center;
-    width: 60px;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-
-}
-input{
-    height: 60px;
-    width: 240px;
-    border: 1px solid rgb(236, 236, 236);
-    margin-top: -2px;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 20px;
-
-}
-.text-input:focus{
-    outline: none;
-}
-.search{
-    width: 150px;
-    border: 1px solid #cccccc;
-    height: 60px;
-    padding: 0px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-style: none;
-    background-color: #0065FC;
-    color: white;
-    font-weight: 600;
-    font-size: 18px;
-}
-.search:hover{
-
-    border: 1px solid #cccccc;
-    background-color: #DEEBFF;
-    color: #0065FC;
-
-}
 .search {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.search{
-    display:inline-block;
+    margin-top: 20px;
+  }
+
+  .input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 15px;
+    min-width: 30%;
+    max-width: 40%;
+    height: 50px;
+  }
+  
+  .input-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 10%;
+    height: 100%;
+  }
+  
+  .input-recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    background-color: #F2F2F2;
+  }
+  
+  input#recherche {
+    height: 50px;
+    width: 100%;
+    border: 0.5px solid #F2F2F2 ;
+    padding: 0px;
+    padding-left: 10px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .input-button {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .button {
+    width: 100%;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .loupe{
+    display: none;
+  }
+  .info {
+    display: flex;
+    width: 30%;
 }
 
-.search-phone{
-    display:none;
-}
-.info-container {
-    display: flex;      
-    flex-direction: row;
-    color: rgba(0, 0, 0, 0.562);
-}
-.info-container p{
-    display: flex;      
-    flex-direction: row;
-    color: rgba(0, 0, 0, 0.562);
-}
-.info-container i{
-    margin-right: 10px;
-    text-align: center;
-    margin-top: 15px;
+.info .fas.fa-info {
     color: #0065FC;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
